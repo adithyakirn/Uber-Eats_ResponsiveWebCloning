@@ -6,9 +6,16 @@
 html{
     height: 100%;
 }
+.mobile{
+    display: block;
+}
 svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
 }
 body {
     background: #FFFFFF;
@@ -20,6 +27,9 @@ body {
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+.desktop{
+    display: none;
 }
 button {
     border-width: 0;
@@ -158,9 +168,29 @@ button {
     box-sizing: border-box;
     cursor: pointer;
 }
+.desktop-footer{
+    display: contents;
+}
+.desktop-image-text{
+    display: contents;
+}
+.signup-button-desktop{
+    display: none;
+}
 .main-container{
     display: block;
-
+}
+.desktop-div{
+    display: contents;
+}
+.desktop-container-footer{
+    display: contents;
+}
+.images-text-container{
+    display: contents;
+}
+.desktop-only-header{
+    display: contents;
 }
 .main-header{
     justify-content: center;
